@@ -1,0 +1,362 @@
+2022-08-22 18:01:44.880 | INFO | run step begin: 刷新token >>>>>>
+2022-08-22 18:01:44.881 | DEBUG | ====== request details ======
+url: https://fmapp-pre.mangguonews.com/auth/refresh_token
+method: GET
+params: {}
+data: None
+cookies: {}
+timeout: 120
+allow_redirects: True
+verify: False
+headers: {
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE1MDU1MDEsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYwOTAwNzAxLCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.w4yduNy8w1YwukjqJEigTbWuoVBc_7v-btA5nNo-iHM",
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736158",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-504881"
+}
+json: None
+
+2022-08-22 18:01:45.052 | DEBUG | client IP: 192.168.3.36, Port: 63533
+2022-08-22 18:01:45.052 | DEBUG | server IP: 106.15.2.58, Port: 443
+2022-08-22 18:01:45.053 | DEBUG | 
+================== request details ==================
+method   : GET
+url      : https://fmapp-pre.mangguonews.com/auth/refresh_token
+headers  : {
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE1MDU1MDEsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYwOTAwNzAxLCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.w4yduNy8w1YwukjqJEigTbWuoVBc_7v-btA5nNo-iHM",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736158",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-504881"
+}
+cookies  : {}
+body     : None
+
+2022-08-22 18:01:45.054 | DEBUG | 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+    "Content-Encoding": "gzip"
+}
+cookies  : {}
+encoding : utf-8
+content_type : application/json; charset=utf-8
+body     : {
+    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "expire": 1661767305,
+    "msg": "ok",
+    "status": 1
+}
+
+2022-08-22 18:01:45.054 | INFO | status_code: 200, response_time(ms): 169.43 ms, response_length: 0 bytes
+2022-08-22 18:01:45.055 | DEBUG | ====== response details ======
+status_code: 200
+headers: {
+    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+    "Content-Encoding": "gzip"
+}
+body: {
+    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "expire": 1661767305,
+    "msg": "ok",
+    "status": 1
+}
+
+2022-08-22 18:01:45.056 | INFO | extract mapping: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o'}
+2022-08-22 18:01:45.056 | INFO | assert status_code equal 200(int)	==> pass
+2022-08-22 18:01:45.056 | INFO | assert headers."Content-Type" equal application/json; charset=utf-8(str)	==> pass
+2022-08-22 18:01:45.056 | INFO | assert body.msg equal ok(str)	==> pass
+2022-08-22 18:01:45.057 | INFO | assert body.status equal 1(int)	==> pass
+2022-08-22 18:01:45.057 | INFO | run step end: 刷新token <<<<<<
+
+2022-08-22 18:01:45.057 | INFO | run step begin: my接口 >>>>>>
+2022-08-22 18:01:45.057 | DEBUG | ====== request details ======
+url: https://fmapp-pre.mangguonews.com/author/my
+method: GET
+params: {}
+data: None
+cookies: {}
+timeout: 120
+allow_redirects: True
+verify: False
+headers: {
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736158",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-505057"
+}
+json: None
+
+2022-08-22 18:01:45.103 | DEBUG | client IP: 192.168.3.36, Port: 63533
+2022-08-22 18:01:45.103 | DEBUG | server IP: 106.15.2.58, Port: 443
+2022-08-22 18:01:45.103 | DEBUG | 
+================== request details ==================
+method   : GET
+url      : https://fmapp-pre.mangguonews.com/author/my
+headers  : {
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736158",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-505057"
+}
+cookies  : {}
+body     : None
+
+2022-08-22 18:01:45.114 | INFO | status_code: 200, response_time(ms): 44.48 ms, response_length: 0 bytes
+2022-08-22 18:01:45.116 | INFO | assert status_code equal 200(int)	==> pass
+2022-08-22 18:01:45.116 | INFO | assert headers."Content-Type" equal application/json; charset=utf-8(str)	==> pass
+2022-08-22 18:01:45.116 | INFO | assert body.msg equal ok(str)	==> pass
+2022-08-22 18:01:45.116 | INFO | assert body.status equal 1(int)	==> pass
+2022-08-22 18:01:45.116 | INFO | run step end: my接口 <<<<<<
+
+2022-08-22 18:01:45.117 | INFO | run step begin: 个人中心数据 >>>>>>
+2022-08-22 18:01:45.117 | DEBUG | ====== request details ======
+url: https://fmapp-pre.mangguonews.com/author/myData
+method: GET
+params: {}
+data: None
+cookies: {}
+timeout: 120
+allow_redirects: True
+verify: False
+headers: {
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736158",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-505117"
+}
+json: None
+
+2022-08-22 18:01:45.161 | DEBUG | client IP: 192.168.3.36, Port: 63533
+2022-08-22 18:01:45.161 | DEBUG | server IP: 106.15.2.58, Port: 443
+2022-08-22 18:01:45.161 | DEBUG | 
+================== request details ==================
+method   : GET
+url      : https://fmapp-pre.mangguonews.com/author/myData
+headers  : {
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736158",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-505117"
+}
+cookies  : {}
+body     : None
+
+2022-08-22 18:01:45.162 | DEBUG | 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "124",
+    "Connection": "keep-alive",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains"
+}
+cookies  : {}
+encoding : utf-8
+content_type : application/json; charset=utf-8
+body     : {
+    "data": {
+        "worksNum": 0,
+        "fans": 0,
+        "like": 0,
+        "followNum": 4,
+        "collectionNum": 1,
+        "allWorksNum": 1,
+        "readNum": 41
+    },
+    "msg": "ok",
+    "status": 1
+}
+
+2022-08-22 18:01:45.162 | INFO | status_code: 200, response_time(ms): 43.17 ms, response_length: 0 bytes
+2022-08-22 18:01:45.162 | DEBUG | ====== response details ======
+status_code: 200
+headers: {
+    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "124",
+    "Connection": "keep-alive",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains"
+}
+body: {
+    "data": {
+        "worksNum": 0,
+        "fans": 0,
+        "like": 0,
+        "followNum": 4,
+        "collectionNum": 1,
+        "allWorksNum": 1,
+        "readNum": 41
+    },
+    "msg": "ok",
+    "status": 1
+}
+
+2022-08-22 18:01:45.162 | INFO | assert status_code equal 200(int)	==> pass
+2022-08-22 18:01:45.163 | INFO | assert headers."Content-Type" equal application/json; charset=utf-8(str)	==> pass
+2022-08-22 18:01:45.163 | INFO | assert body.msg equal ok(str)	==> pass
+2022-08-22 18:01:45.163 | INFO | assert body.status equal 1(int)	==> pass
+2022-08-22 18:01:45.163 | INFO | run step end: 个人中心数据 <<<<<<
+
+2022-08-22 18:01:45.163 | INFO | run step begin: /news/followWorks新关注 >>>>>>
+2022-08-22 18:01:45.163 | DEBUG | ====== request details ======
+url: https://fmapp-pre.mangguonews.com/news/followWorks
+method: GET
+params: {
+    "pageNum": "1",
+    "pageSize": "10",
+    "timestamp": "1658736159"
+}
+data: None
+cookies: {}
+timeout: 120
+allow_redirects: True
+verify: False
+headers: {
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736159",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-505163"
+}
+json: None
+
+2022-08-22 18:01:45.205 | DEBUG | client IP: 192.168.3.36, Port: 63533
+2022-08-22 18:01:45.205 | DEBUG | server IP: 106.15.2.58, Port: 443
+2022-08-22 18:01:45.205 | DEBUG | 
+================== request details ==================
+method   : GET
+url      : https://fmapp-pre.mangguonews.com/news/followWorks?pageNum=1&pageSize=10&timestamp=1658736159
+headers  : {
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736159",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-505163"
+}
+cookies  : {}
+body     : None
+
+2022-08-22 18:01:45.206 | DEBUG | 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "93",
+    "Connection": "keep-alive",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains"
+}
+cookies  : {}
+encoding : utf-8
+content_type : application/json; charset=utf-8
+body     : {
+    "data": {
+        "pageNum": 1,
+        "pageSize": 10,
+        "total": 0,
+        "totalPages": 0,
+        "list": []
+    },
+    "msg": "ok",
+    "status": 1
+}
+
+2022-08-22 18:01:45.206 | INFO | status_code: 200, response_time(ms): 39.61 ms, response_length: 0 bytes
+2022-08-22 18:01:45.206 | DEBUG | ====== response details ======
+status_code: 200
+headers: {
+    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "93",
+    "Connection": "keep-alive",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains"
+}
+body: {
+    "data": {
+        "pageNum": 1,
+        "pageSize": 10,
+        "total": 0,
+        "totalPages": 0,
+        "list": []
+    },
+    "msg": "ok",
+    "status": 1
+}
+
+2022-08-22 18:01:45.207 | INFO | assert status_code equal 200(int)	==> pass
+2022-08-22 18:01:45.207 | INFO | assert headers."Content-Type" equal application/json; charset=utf-8(str)	==> pass
+2022-08-22 18:01:45.207 | INFO | assert body.msg equal ok(str)	==> pass
+2022-08-22 18:01:45.208 | INFO | assert body.status equal 1(int)	==> pass
+2022-08-22 18:01:45.208 | INFO | run step end: /news/followWorks新关注 <<<<<<
+
+2022-08-22 18:01:45.208 | INFO | generate testcase log: D:\py\apitest\logs\5ac22183-6732-4a31-a570-7100c6130b2d.run.log

@@ -1,0 +1,89 @@
+config:
+    name: testcase description
+    variables: {}
+teststeps:
+-   name: /author/my
+    request:
+        headers:
+            Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTkzNDA5MTMsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjU4NzM2MTEzLCJwaG9uZSI6IjE4MDU2NDcxNjk0IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiIwM2M0MjU0NC01OTNhLTQzYzctYjMyNy04MmFmY2FjNjFmM2UifQ.mnFg7Faz1LODYt_NfETTeFKJpop-xzVc-pZjNnTWACA
+            User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)
+            appCode: '55'
+            appId: com.mango.hnxwlb
+            deviceId: 25a97dcac8a79718
+            registrationID: 18071adc03f5c3302c3
+            time: '1658736158'
+            uniqueNum: 25a97dcac8a79718
+            version: 6.2.2
+        method: GET
+        url: https://fmapp-pre.mangguonews.com/author/my
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - application/json; charset=utf-8
+    -   eq:
+        - content.msg
+        - ok
+    -   eq:
+        - content.status
+        - 1
+-   name: /author/myData
+    request:
+        headers:
+            Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTkzNDA5MTMsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjU4NzM2MTEzLCJwaG9uZSI6IjE4MDU2NDcxNjk0IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiIwM2M0MjU0NC01OTNhLTQzYzctYjMyNy04MmFmY2FjNjFmM2UifQ.mnFg7Faz1LODYt_NfETTeFKJpop-xzVc-pZjNnTWACA
+            User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)
+            appCode: '55'
+            appId: com.mango.hnxwlb
+            deviceId: 25a97dcac8a79718
+            registrationID: 18071adc03f5c3302c3
+            time: '1658736158'
+            uniqueNum: 25a97dcac8a79718
+            version: 6.2.2
+        method: GET
+        url: https://fmapp-pre.mangguonews.com/author/myData
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - application/json; charset=utf-8
+    -   eq:
+        - content.msg
+        - ok
+    -   eq:
+        - content.status
+        - 1
+-   name: /news/followWorks
+    request:
+        headers:
+            Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTkzNDA5MTMsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjU4NzM2MTEzLCJwaG9uZSI6IjE4MDU2NDcxNjk0IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiIwM2M0MjU0NC01OTNhLTQzYzctYjMyNy04MmFmY2FjNjFmM2UifQ.mnFg7Faz1LODYt_NfETTeFKJpop-xzVc-pZjNnTWACA
+            User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)
+            appCode: '55'
+            appId: com.mango.hnxwlb
+            deviceId: 25a97dcac8a79718
+            registrationID: 18071adc03f5c3302c3
+            time: '1658736159'
+            uniqueNum: 25a97dcac8a79718
+            version: 6.2.2
+        method: GET
+        params:
+            pageNum: '1'
+            pageSize: '10'
+            timestamp: '1658736159'
+        url: https://fmapp-pre.mangguonews.com/news/followWorks
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - application/json; charset=utf-8
+    -   eq:
+        - content.msg
+        - ok
+    -   eq:
+        - content.status
+        - 1

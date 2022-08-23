@@ -1,0 +1,509 @@
+2022-08-22 18:01:44.872 | INFO     | httprunner.loader:load_dot_env_file:104 - Loading environment variables from D:\py\apitest\.env
+2022-08-22 18:01:44.875 | DEBUG    | httprunner.utils:set_os_environ:95 - Set OS environment variable: base_url
+2022-08-22 18:01:44.878 | INFO     | httprunner.runner:test_start:222 - Start to run testcase: 风芒apiautotest, TestCase ID: 5ac22183-6732-4a31-a570-7100c6130b2d
+2022-08-22 18:01:44.880 | INFO     | httprunner.runner:__run_step:181 - run step begin: 刷新token >>>>>>
+2022-08-22 18:01:44.881 | DEBUG    | httprunner.step_request:run_step_request:131 - ====== request details ======
+url: https://fmapp-pre.mangguonews.com/auth/refresh_token
+method: GET
+params: {}
+data: None
+cookies: {}
+timeout: 120
+allow_redirects: True
+verify: False
+headers: {
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE1MDU1MDEsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYwOTAwNzAxLCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.w4yduNy8w1YwukjqJEigTbWuoVBc_7v-btA5nNo-iHM",
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736158",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-504881"
+}
+json: None
+
+2022-08-22 18:01:45.052 | DEBUG    | httprunner.client:request:185 - client IP: 192.168.3.36, Port: 63533
+2022-08-22 18:01:45.052 | DEBUG    | httprunner.client:request:193 - server IP: 106.15.2.58, Port: 443
+2022-08-22 18:01:45.053 | DEBUG    | httprunner.client:log_print:39 - 
+================== request details ==================
+method   : GET
+url      : https://fmapp-pre.mangguonews.com/auth/refresh_token
+headers  : {
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE1MDU1MDEsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYwOTAwNzAxLCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.w4yduNy8w1YwukjqJEigTbWuoVBc_7v-btA5nNo-iHM",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736158",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-504881"
+}
+cookies  : {}
+body     : None
+
+2022-08-22 18:01:45.054 | DEBUG    | httprunner.client:log_print:39 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+    "Content-Encoding": "gzip"
+}
+cookies  : {}
+encoding : utf-8
+content_type : application/json; charset=utf-8
+body     : {
+    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "expire": 1661767305,
+    "msg": "ok",
+    "status": 1
+}
+
+2022-08-22 18:01:45.054 | INFO     | httprunner.client:request:216 - status_code: 200, response_time(ms): 169.43 ms, response_length: 0 bytes
+2022-08-22 18:01:45.055 | DEBUG    | httprunner.step_request:run_step_request:151 - ====== response details ======
+status_code: 200
+headers: {
+    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+    "Content-Encoding": "gzip"
+}
+body: {
+    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "expire": 1661767305,
+    "msg": "ok",
+    "status": 1
+}
+
+2022-08-22 18:01:45.056 | INFO     | httprunner.response:extract:151 - extract mapping: {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o'}
+2022-08-22 18:01:45.056 | INFO     | httprunner.response:validate:230 - assert status_code equal 200(int)	==> pass
+2022-08-22 18:01:45.056 | INFO     | httprunner.response:validate:230 - assert headers."Content-Type" equal application/json; charset=utf-8(str)	==> pass
+2022-08-22 18:01:45.056 | INFO     | httprunner.response:validate:230 - assert body.msg equal ok(str)	==> pass
+2022-08-22 18:01:45.057 | INFO     | httprunner.response:validate:230 - assert body.status equal 1(int)	==> pass
+2022-08-22 18:01:45.057 | INFO     | httprunner.runner:__run_step:209 - run step end: 刷新token <<<<<<
+
+2022-08-22 18:01:45.057 | INFO     | httprunner.runner:__run_step:181 - run step begin: my接口 >>>>>>
+2022-08-22 18:01:45.057 | DEBUG    | httprunner.step_request:run_step_request:131 - ====== request details ======
+url: https://fmapp-pre.mangguonews.com/author/my
+method: GET
+params: {}
+data: None
+cookies: {}
+timeout: 120
+allow_redirects: True
+verify: False
+headers: {
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736158",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-505057"
+}
+json: None
+
+2022-08-22 18:01:45.103 | DEBUG    | httprunner.client:request:185 - client IP: 192.168.3.36, Port: 63533
+2022-08-22 18:01:45.103 | DEBUG    | httprunner.client:request:193 - server IP: 106.15.2.58, Port: 443
+2022-08-22 18:01:45.103 | DEBUG    | httprunner.client:log_print:39 - 
+================== request details ==================
+method   : GET
+url      : https://fmapp-pre.mangguonews.com/author/my
+headers  : {
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736158",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-505057"
+}
+cookies  : {}
+body     : None
+
+2022-08-22 18:01:45.103 | DEBUG    | httprunner.client:log_print:39 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+    "Content-Encoding": "gzip"
+}
+cookies  : {}
+encoding : utf-8
+content_type : application/json; charset=utf-8
+body     : {
+    "data": {
+        "id": "b5da926a-a8f9-40bf-bb0f-1a3955c50f8f",
+        "uuid": "b5da926a-a8f9-40bf-bb0f-1a3955c50f8f",
+        "name": "……🇺🇦你好",
+        "newName": "……🇺🇦你好",
+        "avatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=Mbo9rsjcpob7IILiaIibpGRg&s=100&t=1605354132",
+        "newAvatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=Mbo9rsjcpob7IILiaIibpGRg&s=100&t=1605354132",
+        "sex": "",
+        "introduction": "牛电话",
+        "newIntroduction": "牛电话",
+        "areaCode": "410300",
+        "area": " 河南省 洛阳市",
+        "status": "1",
+        "followStatus": false,
+        "worksNum": 0,
+        "fans": 0,
+        "like": 0,
+        "followNum": 4,
+        "collectionNum": 2,
+        "homepageImg": "",
+        "newHomepageImg": "",
+        "type": "2",
+        "shareUrl": "https://ls-pre.mangguonews.com/mgnh5/personal?id=b5da926a-a8f9-40bf-bb0f-1a3955c50f8f",
+        "shareImg": "http://thirdqq.qlogo.cn/g?b=oidb&k=Mbo9rsjcpob7IILiaIibpGRg&s=100&t=1605354132",
+        "shareTitle": "……🇺🇦的主页",
+        "shareInfo": "",
+        "allWorksNum": 0,
+        "readNum": 0,
+        "phone": "18976646919",
+        "canComment": 0,
+        "qq": "007ADF94B2DBEBDD1100473F7E0FA9A3",
+        "qqName": "……🇺🇦",
+        "weibo": "",
+        "weiboName": "",
+        "weChart": "",
+        "weChartName": "",
+        "apple": "",
+        "appleName": "",
+        "isAuth": 0,
+        "pointNum": 0,
+        "isLive": 0,
+        "bindPhoneTime": 1660016473,
+        "canBindPhone": false,
+        "canUnbindThird": true
+    },
+    "msg": "ok",
+    "status": 1
+}
+
+--- Logging error in Loguru Handler #1 ---
+Record was: {'elapsed': datetime.timedelta(seconds=1, microseconds=2146), 'exception': None, 'extra': {}, 'file': (name='client.py', path='D:\\py\\apitest\\venv_test\\lib\\site-packages\\httprunner\\client.py'), 'function': 'log_print', 'level': (name='DEBUG', no=10, icon='🐞'), 'line': 39, 'message': '\n================== response details ==================\nstatus_code : 200\nheaders  : {\n    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",\n    "Content-Type": "application/json; charset=utf-8",\n    "Transfer-Encoding": "chunked",\n    "Connection": "keep-alive",\n    "Vary": "Accept-Encoding",\n    "Strict-Transport-Security": "max-age=15724800; includeSubDomains",\n    "Content-Encoding": "gzip"\n}\ncookies  : {}\nencoding : utf-8\ncontent_type : application/json; charset=utf-8\nbody     : {\n    "data": {\n        "id": "b5da926a-a8f9-40bf-bb0f-1a3955c50f8f",\n        "uuid": "b5da926a-a8f9-40bf-bb0f-1a3955c50f8f",\n        "name": "……🇺🇦你好",\n        "newName": "……🇺🇦你好",\n        "avatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=Mbo9rsjcpob7IILiaIibpGRg&s=100&t=1605354132",\n        "newAvatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=Mbo9rsjcpob7IILiaIibpGRg&s=100&t=1605354132",\n        "sex": "",\n        "introduction": "牛电话",\n        "newIntroduction": "牛电话",\n        "areaCode": "410300",\n        "area": " 河南省 洛阳市",\n        "status": "1",\n        "followStatus": false,\n        "worksNum": 0,\n        "fans": 0,\n        "like": 0,\n        "followNum": 4,\n        "collectionNum": 2,\n        "homepageImg": "",\n        "newHomepageImg": "",\n        "type": "2",\n        "shareUrl": "https://ls-pre.mangguonews.com/mgnh5/personal?id=b5da926a-a8f9-40bf-bb0f-1a3955c50f8f",\n        "shareImg": "http://thirdqq.qlogo.cn/g?b=oidb&k=Mbo9rsjcpob7IILiaIibpGRg&s=100&t=1605354132",\n        "shareTitle": "……🇺🇦的主页",\n        "shareInfo": "",\n        "allWorksNum": 0,\n        "readNum": 0,\n        "phone": "18976646919",\n        "canComment": 0,\n        "qq": "007ADF94B2DBEBDD1100473F7E0FA9A3",\n        "qqName": "……🇺🇦",\n        "weibo": "",\n        "weiboName": "",\n        "weChart": "",\n        "weChartName": "",\n        "apple": "",\n        "appleName": "",\n        "isAuth": 0,\n        "pointNum": 0,\n        "isLive": 0,\n        "bindPhoneTime": 1660016473,\n        "canBindPhone": false,\n        "canUnbindThird": true\n    },\n    "msg": "ok",\n    "status": 1\n}\n', 'module': 'client', 'name': 'httprunner.client', 'process': (id=19544, name='MainProcess'), 'thread': (id=9356, name='MainThread'), 'time': datetime(2022, 8, 22, 18, 1, 45, 103985, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "D:\py\apitest\venv_test\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "D:\py\apitest\venv_test\lib\site-packages\loguru\_file_sink.py", line 179, in write
+    self._file.write(message)
+UnicodeEncodeError: 'gbk' codec can't encode character '\U0001f1fa' in position 678: illegal multibyte sequence
+--- End of logging error ---
+2022-08-22 18:01:45.114 | INFO     | httprunner.client:request:216 - status_code: 200, response_time(ms): 44.48 ms, response_length: 0 bytes
+2022-08-22 18:01:45.114 | DEBUG    | httprunner.step_request:run_step_request:151 - ====== response details ======
+status_code: 200
+headers: {
+    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+    "Content-Encoding": "gzip"
+}
+body: {
+    "data": {
+        "id": "b5da926a-a8f9-40bf-bb0f-1a3955c50f8f",
+        "uuid": "b5da926a-a8f9-40bf-bb0f-1a3955c50f8f",
+        "name": "……🇺🇦你好",
+        "newName": "……🇺🇦你好",
+        "avatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=Mbo9rsjcpob7IILiaIibpGRg&s=100&t=1605354132",
+        "newAvatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=Mbo9rsjcpob7IILiaIibpGRg&s=100&t=1605354132",
+        "sex": "",
+        "introduction": "牛电话",
+        "newIntroduction": "牛电话",
+        "areaCode": "410300",
+        "area": " 河南省 洛阳市",
+        "status": "1",
+        "followStatus": false,
+        "worksNum": 0,
+        "fans": 0,
+        "like": 0,
+        "followNum": 4,
+        "collectionNum": 2,
+        "homepageImg": "",
+        "newHomepageImg": "",
+        "type": "2",
+        "shareUrl": "https://ls-pre.mangguonews.com/mgnh5/personal?id=b5da926a-a8f9-40bf-bb0f-1a3955c50f8f",
+        "shareImg": "http://thirdqq.qlogo.cn/g?b=oidb&k=Mbo9rsjcpob7IILiaIibpGRg&s=100&t=1605354132",
+        "shareTitle": "……🇺🇦的主页",
+        "shareInfo": "",
+        "allWorksNum": 0,
+        "readNum": 0,
+        "phone": "18976646919",
+        "canComment": 0,
+        "qq": "007ADF94B2DBEBDD1100473F7E0FA9A3",
+        "qqName": "……🇺🇦",
+        "weibo": "",
+        "weiboName": "",
+        "weChart": "",
+        "weChartName": "",
+        "apple": "",
+        "appleName": "",
+        "isAuth": 0,
+        "pointNum": 0,
+        "isLive": 0,
+        "bindPhoneTime": 1660016473,
+        "canBindPhone": false,
+        "canUnbindThird": true
+    },
+    "msg": "ok",
+    "status": 1
+}
+
+--- Logging error in Loguru Handler #1 ---
+Record was: {'elapsed': datetime.timedelta(seconds=1, microseconds=12371), 'exception': None, 'extra': {}, 'file': (name='step_request.py', path='D:\\py\\apitest\\venv_test\\lib\\site-packages\\httprunner\\step_request.py'), 'function': 'run_step_request', 'level': (name='DEBUG', no=10, icon='🐞'), 'line': 151, 'message': '====== response details ======\nstatus_code: 200\nheaders: {\n    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",\n    "Content-Type": "application/json; charset=utf-8",\n    "Transfer-Encoding": "chunked",\n    "Connection": "keep-alive",\n    "Vary": "Accept-Encoding",\n    "Strict-Transport-Security": "max-age=15724800; includeSubDomains",\n    "Content-Encoding": "gzip"\n}\nbody: {\n    "data": {\n        "id": "b5da926a-a8f9-40bf-bb0f-1a3955c50f8f",\n        "uuid": "b5da926a-a8f9-40bf-bb0f-1a3955c50f8f",\n        "name": "……🇺🇦你好",\n        "newName": "……🇺🇦你好",\n        "avatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=Mbo9rsjcpob7IILiaIibpGRg&s=100&t=1605354132",\n        "newAvatar": "http://thirdqq.qlogo.cn/g?b=oidb&k=Mbo9rsjcpob7IILiaIibpGRg&s=100&t=1605354132",\n        "sex": "",\n        "introduction": "牛电话",\n        "newIntroduction": "牛电话",\n        "areaCode": "410300",\n        "area": " 河南省 洛阳市",\n        "status": "1",\n        "followStatus": false,\n        "worksNum": 0,\n        "fans": 0,\n        "like": 0,\n        "followNum": 4,\n        "collectionNum": 2,\n        "homepageImg": "",\n        "newHomepageImg": "",\n        "type": "2",\n        "shareUrl": "https://ls-pre.mangguonews.com/mgnh5/personal?id=b5da926a-a8f9-40bf-bb0f-1a3955c50f8f",\n        "shareImg": "http://thirdqq.qlogo.cn/g?b=oidb&k=Mbo9rsjcpob7IILiaIibpGRg&s=100&t=1605354132",\n        "shareTitle": "……🇺🇦的主页",\n        "shareInfo": "",\n        "allWorksNum": 0,\n        "readNum": 0,\n        "phone": "18976646919",\n        "canComment": 0,\n        "qq": "007ADF94B2DBEBDD1100473F7E0FA9A3",\n        "qqName": "……🇺🇦",\n        "weibo": "",\n        "weiboName": "",\n        "weChart": "",\n        "weChartName": "",\n        "apple": "",\n        "appleName": "",\n        "isAuth": 0,\n        "pointNum": 0,\n        "isLive": 0,\n        "bindPhoneTime": 1660016473,\n        "canBindPhone": false,\n        "canUnbindThird": true\n    },\n    "msg": "ok",\n    "status": 1\n}\n', 'module': 'step_request', 'name': 'httprunner.step_request', 'process': (id=19544, name='MainProcess'), 'thread': (id=9356, name='MainThread'), 'time': datetime(2022, 8, 22, 18, 1, 45, 114210, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "D:\py\apitest\venv_test\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "D:\py\apitest\venv_test\lib\site-packages\loguru\_file_sink.py", line 179, in write
+    self._file.write(message)
+UnicodeEncodeError: 'gbk' codec can't encode character '\U0001f1fa' in position 563: illegal multibyte sequence
+--- End of logging error ---
+2022-08-22 18:01:45.116 | INFO     | httprunner.response:validate:230 - assert status_code equal 200(int)	==> pass
+2022-08-22 18:01:45.116 | INFO     | httprunner.response:validate:230 - assert headers."Content-Type" equal application/json; charset=utf-8(str)	==> pass
+2022-08-22 18:01:45.116 | INFO     | httprunner.response:validate:230 - assert body.msg equal ok(str)	==> pass
+2022-08-22 18:01:45.116 | INFO     | httprunner.response:validate:230 - assert body.status equal 1(int)	==> pass
+2022-08-22 18:01:45.116 | INFO     | httprunner.runner:__run_step:209 - run step end: my接口 <<<<<<
+
+2022-08-22 18:01:45.117 | INFO     | httprunner.runner:__run_step:181 - run step begin: 个人中心数据 >>>>>>
+2022-08-22 18:01:45.117 | DEBUG    | httprunner.step_request:run_step_request:131 - ====== request details ======
+url: https://fmapp-pre.mangguonews.com/author/myData
+method: GET
+params: {}
+data: None
+cookies: {}
+timeout: 120
+allow_redirects: True
+verify: False
+headers: {
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736158",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-505117"
+}
+json: None
+
+2022-08-22 18:01:45.161 | DEBUG    | httprunner.client:request:185 - client IP: 192.168.3.36, Port: 63533
+2022-08-22 18:01:45.161 | DEBUG    | httprunner.client:request:193 - server IP: 106.15.2.58, Port: 443
+2022-08-22 18:01:45.161 | DEBUG    | httprunner.client:log_print:39 - 
+================== request details ==================
+method   : GET
+url      : https://fmapp-pre.mangguonews.com/author/myData
+headers  : {
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736158",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-505117"
+}
+cookies  : {}
+body     : None
+
+2022-08-22 18:01:45.162 | DEBUG    | httprunner.client:log_print:39 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "124",
+    "Connection": "keep-alive",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains"
+}
+cookies  : {}
+encoding : utf-8
+content_type : application/json; charset=utf-8
+body     : {
+    "data": {
+        "worksNum": 0,
+        "fans": 0,
+        "like": 0,
+        "followNum": 4,
+        "collectionNum": 1,
+        "allWorksNum": 1,
+        "readNum": 41
+    },
+    "msg": "ok",
+    "status": 1
+}
+
+2022-08-22 18:01:45.162 | INFO     | httprunner.client:request:216 - status_code: 200, response_time(ms): 43.17 ms, response_length: 0 bytes
+2022-08-22 18:01:45.162 | DEBUG    | httprunner.step_request:run_step_request:151 - ====== response details ======
+status_code: 200
+headers: {
+    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "124",
+    "Connection": "keep-alive",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains"
+}
+body: {
+    "data": {
+        "worksNum": 0,
+        "fans": 0,
+        "like": 0,
+        "followNum": 4,
+        "collectionNum": 1,
+        "allWorksNum": 1,
+        "readNum": 41
+    },
+    "msg": "ok",
+    "status": 1
+}
+
+2022-08-22 18:01:45.162 | INFO     | httprunner.response:validate:230 - assert status_code equal 200(int)	==> pass
+2022-08-22 18:01:45.163 | INFO     | httprunner.response:validate:230 - assert headers."Content-Type" equal application/json; charset=utf-8(str)	==> pass
+2022-08-22 18:01:45.163 | INFO     | httprunner.response:validate:230 - assert body.msg equal ok(str)	==> pass
+2022-08-22 18:01:45.163 | INFO     | httprunner.response:validate:230 - assert body.status equal 1(int)	==> pass
+2022-08-22 18:01:45.163 | INFO     | httprunner.runner:__run_step:209 - run step end: 个人中心数据 <<<<<<
+
+2022-08-22 18:01:45.163 | INFO     | httprunner.runner:__run_step:181 - run step begin: /news/followWorks新关注 >>>>>>
+2022-08-22 18:01:45.163 | DEBUG    | httprunner.step_request:run_step_request:131 - ====== request details ======
+url: https://fmapp-pre.mangguonews.com/news/followWorks
+method: GET
+params: {
+    "pageNum": "1",
+    "pageSize": "10",
+    "timestamp": "1658736159"
+}
+data: None
+cookies: {}
+timeout: 120
+allow_redirects: True
+verify: False
+headers: {
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736159",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-505163"
+}
+json: None
+
+2022-08-22 18:01:45.205 | DEBUG    | httprunner.client:request:185 - client IP: 192.168.3.36, Port: 63533
+2022-08-22 18:01:45.205 | DEBUG    | httprunner.client:request:193 - server IP: 106.15.2.58, Port: 443
+2022-08-22 18:01:45.205 | DEBUG    | httprunner.client:log_print:39 - 
+================== request details ==================
+method   : GET
+url      : https://fmapp-pre.mangguonews.com/news/followWorks?pageNum=1&pageSize=10&timestamp=1658736159
+headers  : {
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736159",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-505163"
+}
+cookies  : {}
+body     : None
+
+2022-08-22 18:01:45.206 | DEBUG    | httprunner.client:log_print:39 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "93",
+    "Connection": "keep-alive",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains"
+}
+cookies  : {}
+encoding : utf-8
+content_type : application/json; charset=utf-8
+body     : {
+    "data": {
+        "pageNum": 1,
+        "pageSize": 10,
+        "total": 0,
+        "totalPages": 0,
+        "list": []
+    },
+    "msg": "ok",
+    "status": 1
+}
+
+2022-08-22 18:01:45.206 | INFO     | httprunner.client:request:216 - status_code: 200, response_time(ms): 39.61 ms, response_length: 0 bytes
+2022-08-22 18:01:45.206 | DEBUG    | httprunner.step_request:run_step_request:151 - ====== response details ======
+status_code: 200
+headers: {
+    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "93",
+    "Connection": "keep-alive",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains"
+}
+body: {
+    "data": {
+        "pageNum": 1,
+        "pageSize": 10,
+        "total": 0,
+        "totalPages": 0,
+        "list": []
+    },
+    "msg": "ok",
+    "status": 1
+}
+
+2022-08-22 18:01:45.207 | INFO     | httprunner.response:validate:230 - assert status_code equal 200(int)	==> pass
+2022-08-22 18:01:45.207 | INFO     | httprunner.response:validate:230 - assert headers."Content-Type" equal application/json; charset=utf-8(str)	==> pass
+2022-08-22 18:01:45.207 | INFO     | httprunner.response:validate:230 - assert body.msg equal ok(str)	==> pass
+2022-08-22 18:01:45.208 | INFO     | httprunner.response:validate:230 - assert body.status equal 1(int)	==> pass
+2022-08-22 18:01:45.208 | INFO     | httprunner.runner:__run_step:209 - run step end: /news/followWorks新关注 <<<<<<
+
+2022-08-22 18:01:45.208 | INFO     | httprunner.runner:test_start:233 - generate testcase log: D:\py\apitest\logs\5ac22183-6732-4a31-a570-7100c6130b2d.run.log

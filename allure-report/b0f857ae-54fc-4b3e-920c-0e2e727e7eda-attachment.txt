@@ -1,0 +1,22 @@
+====== request details ======
+url: https://fmapp-pre.mangguonews.com/auth/refresh_token
+method: GET
+params: {}
+data: None
+cookies: {}
+timeout: 120
+allow_redirects: True
+verify: False
+headers: {
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE1MDU1MDEsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYwOTAwNzAxLCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.w4yduNy8w1YwukjqJEigTbWuoVBc_7v-btA5nNo-iHM",
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; PAFM00 Build/RKQ1.210510.002)",
+    "appCode": "55",
+    "appId": "com.mango.hnxwlb",
+    "deviceId": "25a97dcac8a79718",
+    "registrationID": "18071adc03f5c3302c3",
+    "time": "1658736158",
+    "uniqueNum": "25a97dcac8a79718",
+    "version": "6.2.2",
+    "HRUN-Request-ID": "HRUN-5ac22183-6732-4a31-a570-7100c6130b2d-504881"
+}
+json: None

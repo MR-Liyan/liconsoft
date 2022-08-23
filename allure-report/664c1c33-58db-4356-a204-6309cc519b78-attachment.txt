@@ -1,0 +1,22 @@
+====== response details ======
+status_code: 200
+headers: {
+    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "124",
+    "Connection": "keep-alive",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains"
+}
+body: {
+    "data": {
+        "worksNum": 0,
+        "fans": 0,
+        "like": 0,
+        "followNum": 4,
+        "collectionNum": 1,
+        "allWorksNum": 1,
+        "readNum": 41
+    },
+    "msg": "ok",
+    "status": 1
+}

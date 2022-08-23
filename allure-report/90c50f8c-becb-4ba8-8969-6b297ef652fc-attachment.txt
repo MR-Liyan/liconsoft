@@ -1,0 +1,17 @@
+====== response details ======
+status_code: 200
+headers: {
+    "Date": "Mon, 22 Aug 2022 10:01:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
+    "Content-Encoding": "gzip"
+}
+body: {
+    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjE3NjczMDUsImlkZW50aXR5IjoxLCJpc0xpdmUiOjAsIm9yaWdfaWF0IjoxNjYxMTYyNTA1LCJwaG9uZSI6IjE4OTc2NjQ2OTE5IiwidW5pcXVlTnVtIjoiMjVhOTdkY2FjOGE3OTcxOCIsInV1aWQiOiJiNWRhOTI2YS1hOGY5LTQwYmYtYmIwZi0xYTM5NTVjNTBmOGYifQ.iuukijiPGU3fzf7xzMlKrDuPjHxfmBPQHEofOG6Vf-o",
+    "expire": 1661767305,
+    "msg": "ok",
+    "status": 1
+}
